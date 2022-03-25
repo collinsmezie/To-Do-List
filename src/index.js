@@ -18,9 +18,7 @@ function CreateList(tasks) {
     const list = document.querySelector('.dynamic-list');
     const element = document.createElement('div');
     element.className = 'bg task';
-    /* eslint-disable */
-    const { description, completed, index } = tasks[i];
-    /* eslint-enable */
+    const { description } = tasks[i];
     element.innerHTML = description;
     const menu = new Image();
     menu.src = Icon1;
