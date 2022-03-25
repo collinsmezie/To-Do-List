@@ -1,18 +1,35 @@
-import _ from 'lodash';
 import './style.css';
+import Icon1 from './kebab.png';
+import Icon2 from './refresh.svg';
 
+const tasks = [
+  { description: 'eat', completed: true, index: 0 },
+  { description: 'code', completed: true, index: 1 },
+  { description: 'sleep', completed: false, index: 2 },
+];
 
-
-function component() {
+const headline = document.querySelector('.headline');
+const refreshIcon = new Image();
+refreshIcon.src = Icon2;
+refreshIcon.className = 'refresh-image';
+headline.appendChild(refreshIcon);
+function CreateList(tasks) {
+  for (let i = 0; i < tasks.length; i += 1) {
+    const list = document.querySelector('.dynamic-list');
     const element = document.createElement('div');
-  
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+    element.className = 'bg task';
+    const { description } = tasks[i];
+    element.innerHTML = description;
+    const menu = new Image();
+    menu.src = Icon1;
+    menu.className = 'menu-image';
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.className = 'checkBox';
 
-  
-    return element;
+    element.appendChild(checkbox);
+    element.appendChild(menu);
+    list.appendChild(element);
   }
-  
-  document.body.appendChild(component());
-  
+}
+CreateList(tasks);
