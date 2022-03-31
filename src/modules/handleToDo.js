@@ -6,7 +6,7 @@ const handleToDo = (todo, todoItems) => {
   const items = document.querySelectorAll('.todo');
   items.forEach((item) => {
     const idInNum = Number(item.querySelector('.section-1').getAttribute('data-time'));
-    if (idInNum === todo.ID) {
+    if (idInNum === todo.index) {
       // mark complete
 
       // delete todo
@@ -16,7 +16,7 @@ const handleToDo = (todo, todoItems) => {
         const removeIndex = todoItems.indexOf(todo);
         todoItems.splice(removeIndex, 1);
         for (let i = 0; i < todoItems.length; i += 1) {
-          todoItems[i].ID = todoItems.indexOf(todoItems[i]) + 1;
+          todoItems[i].index = todoItems.indexOf(todoItems[i]) + 1;
         }
         setLocalStorage(todoItems);
       });
@@ -25,7 +25,7 @@ const handleToDo = (todo, todoItems) => {
       item.querySelector('.label').addEventListener('blur', () => {
         const itemIndex = todoItems.indexOf(todo);
         const currentItem = todoItems[itemIndex];
-        currentItem.Description = item.textContent;
+        currentItem.Description = item.innerText;
         todoItems.splice(itemIndex, 1, currentItem);
         setLocalStorage(todoItems);
       });

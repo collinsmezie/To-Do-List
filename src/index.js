@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     const textValue = mainInput.value;
     const itemObj = {
-      ID: taskArr.length + 1,
+      index: taskArr.length + 1,
       Description: textValue,
       Completed: false,
     };
@@ -48,7 +48,7 @@ function getList(myToDos) {
   if (myToDos.length > 0) {
     myToDos.forEach((todo) => {
       dynamicDivision.insertAdjacentHTML('beforeend', `<div class = "inner-main-container todo">
-  <div class="section-1" data-time="${todo.ID}">
+  <div class="section-1" data-time="${todo.index}">
   <input type="checkbox" class="check-box">
   <label class="label" contenteditable="true">${todo.Description}</label>
   
