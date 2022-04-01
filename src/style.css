@@ -29,6 +29,7 @@ h1 {
   background: lightgray;
   text-align: center;
   padding: 1px;
+  cursor: pointer;
 }
 
 .input-field {
@@ -80,4 +81,8 @@ h1 {
 input[type=checkbox] {
   transform: scale(1.5);
   margin-top: 18px;
+}
+
+input:checked + label {
+  text-decoration: line-through;
 }

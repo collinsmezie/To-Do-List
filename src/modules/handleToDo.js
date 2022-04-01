@@ -8,7 +8,13 @@ const handleToDo = (todo, todoItems) => {
     const idInNum = Number(item.querySelector('.section-1').getAttribute('data-time'));
     if (idInNum === todo.index) {
       // mark complete
-
+      item.querySelector('.checkbox').addEventListener('change', () => {
+        const itemIndex = todoItems.indexOf(todo);
+        const currentItem = todoItems[itemIndex];
+        currentItem.Completed = !currentItem.Completed;
+        todoItems.splice(itemIndex, 1, currentItem);
+        setLocalStorage(todoItems);
+      });
       // delete todo
       item.querySelector('.remove-btn').addEventListener('click', (e) => {
         e.preventDefault();

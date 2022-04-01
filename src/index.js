@@ -49,7 +49,7 @@ function getList(myToDos) {
     myToDos.forEach((todo) => {
       dynamicDivision.insertAdjacentHTML('beforeend', `<div class = "inner-main-container todo">
   <div class="section-1" data-time="${todo.index}">
-  <input type="checkbox" class="check-box">
+  <input type="checkbox" class="checkbox" ${todo.Completed ? 'checked' : 'unchecked'}>
   <label class="label" contenteditable="true">${todo.Description}</label>
   
   </div> 
@@ -61,9 +61,19 @@ function getList(myToDos) {
     });
   }
 }
-
+document.querySelector('.clear').addEventListener('click', (e) => {
+  e.preventDefault();
+  const filteredTodos = taskArr.filter((item) => !item.Completed);
+  for (let i = 0; i < filteredTodos.length; i += 1) {
+    filteredTodos[i].index = filteredTodos.indexOf(filteredTodos[i]) + 1;
+  }
+  taskArr = filteredTodos;
+  setLocalStorage(taskArr);
+  getList(taskArr);
+});
 const refreshImage = new Image();
 refreshImage.src = Icon1;
 const headlineSection = document.querySelector('.headline');
+
 headlineSection.appendChild(refreshImage);
 refreshImage.className = 'refresh-image';
