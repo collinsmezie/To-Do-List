@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  margin: 0;\\n  padding: 0;\\n  font: 21px/1.5 Arial, sans-serif;\\n  background: lightgray;\\n}\\n\\n.bg {\\n  background: white;\\n  border-bottom: 1px solid gray;\\n}\\n\\n.container {\\n  position: absolute;\\n  left: 50%;\\n  top: 50%;\\n  transform: translate(-50%, -50%);\\n  width: 50%;\\n  border: 1px solid gray;\\n  background: white;\\n}\\n\\n.headline {\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: space-between;\\n  align-items: center;\\n  padding: 13px;\\n}\\n\\n.input {\\n  font-style: italic;\\n}\\n\\n.task {\\n  display: grid;\\n  grid-template-areas: 'left center right';\\n  grid-template-columns: 20px 7fr 20px;\\n  grid-template-rows: 50px;\\n  grid-gap: 5px;\\n  background: white;\\n  padding: 20px;\\n  align-items: center;\\n  gap: 15px;\\n}\\n\\n.clear {\\n  background-color: lightgray;\\n  text-align: center;\\n  padding: 15px;\\n}\\n\\n#p {\\n  border: 2px solid white;\\n}\\n\\n.align {\\n  margin-left: 15px;\\n}\\n\\n.checkBox {\\n  grid-area: left;\\n}\\n\\n.menu-image {\\n  grid-area: right;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  margin: 0;\\n  padding: 0;\\n  font: 21px/1.5 Arial, sans-serif;\\n  background-color: lightgray;\\n}\\n\\n.container {\\n  width: 60%;\\n  margin: auto;\\n  margin-top: 20vh;\\n  border: 2px solid black;\\n  background-color: #fff;\\n}\\n\\nh1 {\\n  font-size: 25px;\\n  padding-left: 20px;\\n}\\n\\n.headline {\\n  display: flex;\\n  justify-content: space-between;\\n  background-color: #fff;\\n  border-bottom: 1px solid lightgray;\\n}\\n\\n.clear {\\n  background: lightgray;\\n  text-align: center;\\n  padding: 1px;\\n  cursor: pointer;\\n}\\n\\n.input-field {\\n  border-bottom: 1px solid lightgray;\\n  display: flex;\\n  justify-content: space-between;\\n  padding: 20px;\\n}\\n\\n.field-input {\\n  color: grey;\\n  width: 80%;\\n  height: 100%;\\n  border: 0 solid;\\n  outline: none;\\n  font-size: 18px;\\n}\\n\\n.refresh-image {\\n  padding-right: 20px;\\n  width: 20px;\\n  height: auto;\\n}\\n\\n.trash-image {\\n  width: 20px;\\n  height: auto;\\n  margin-top: 15px;\\n  cursor: pointer;\\n}\\n\\n.inner-main-container {\\n  display: flex;\\n  justify-content: space-between;\\n  padding: 10px 20px 0 20px;\\n  min-height: 60px;\\n  border-bottom: 1px solid lightgray;\\n}\\n\\n.section-1 {\\n  display: flex;\\n  gap: 27px;\\n}\\n\\n.label {\\n  margin-top: 8px;\\n}\\n\\ninput[type=checkbox] {\\n  transform: scale(1.5);\\n  margin-top: 18px;\\n}\\n\\ninput:checked + label {\\n  text-decoration: line-through;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,17 +116,27 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _kebab_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./kebab.png */ \"./src/kebab.png\");\n/* harmony import */ var _refresh_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./refresh.svg */ \"./src/refresh.svg\");\n\n\n\n\nconst tasks = [\n  { description: 'eat', completed: true, index: 0 },\n  { description: 'code', completed: true, index: 1 },\n  { description: 'sleep', completed: false, index: 2 },\n];\n\nconst headline = document.querySelector('.headline');\nconst refreshIcon = new Image();\nrefreshIcon.src = _refresh_svg__WEBPACK_IMPORTED_MODULE_2__;\nrefreshIcon.className = 'refresh-image';\nheadline.appendChild(refreshIcon);\nfunction CreateList(tasks) {\n  for (let i = 0; i < tasks.length; i += 1) {\n    const list = document.querySelector('.dynamic-list');\n    const element = document.createElement('div');\n    element.className = 'bg task';\n    const { description } = tasks[i];\n    element.innerHTML = description;\n    const menu = new Image();\n    menu.src = _kebab_png__WEBPACK_IMPORTED_MODULE_1__;\n    menu.className = 'menu-image';\n    const checkbox = document.createElement('input');\n    checkbox.type = 'checkbox';\n    checkbox.className = 'checkBox';\n\n    element.appendChild(checkbox);\n    element.appendChild(menu);\n    list.appendChild(element);\n  }\n}\nCreateList(tasks);\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _refresh_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./refresh.svg */ \"./src/refresh.svg\");\n/* harmony import */ var _modules_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/setLocalStorage.js */ \"./src/modules/setLocalStorage.js\");\n/* harmony import */ var _modules_handleToDo_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/handleToDo.js */ \"./src/modules/handleToDo.js\");\n\n\n\n\n\nconst dynamicDivision = document.querySelector('.dynamic-list');\nconst mainForm = document.querySelector('.main-form');\nconst mainInput = document.querySelector('.field-input');\nlet taskArr = [];\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  mainForm.addEventListener('submit', (e) => {\n    e.preventDefault();\n    const textValue = mainInput.value;\n    const itemObj = {\n      index: taskArr.length + 1,\n      Description: textValue,\n      Completed: false,\n    };\n    taskArr.push(itemObj);\n    (0,_modules_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(taskArr);\n    // display todos in realtime\n    /* eslint-disable no-use-before-define */\n    getList(taskArr);\n    /* eslint-enable */\n    mainForm.reset();\n  });\n  /* eslint-disable no-use-before-define */\n  getLocalStorage();\n  /* eslint-enable */\n});\n\n// get items from local storage\nconst getLocalStorage = () => {\n  const todoStorage = localStorage.getItem('Todos');\n  if (todoStorage === null) {\n    taskArr = [];\n  } else {\n    taskArr = JSON.parse(todoStorage);\n  }\n  /* eslint-disable no-use-before-define */\n  getList(taskArr);\n  /* eslint-enable */\n};\n\nfunction getList(myToDos) {\n  dynamicDivision.innerHTML = '';\n  if (myToDos.length > 0) {\n    myToDos.forEach((todo) => {\n      dynamicDivision.insertAdjacentHTML('beforeend', `<div class = \"inner-main-container todo\">\n  <div class=\"section-1\" data-time=\"${todo.index}\">\n  <input type=\"checkbox\" class=\"checkbox\" ${todo.Completed ? 'checked' : 'unchecked'}>\n  <label class=\"label\" contenteditable=\"true\">${todo.Description}</label>\n  \n  </div> \n  <div class=\"section-2\"> \n  <span class=\"fa fa-trash trash-image remove-btn\"></span>\n  </div>\n  </div>`);\n      (0,_modules_handleToDo_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(todo, taskArr);\n    });\n  }\n}\ndocument.querySelector('.clear').addEventListener('click', (e) => {\n  e.preventDefault();\n  const filteredTodos = taskArr.filter((item) => !item.Completed);\n  for (let i = 0; i < filteredTodos.length; i += 1) {\n    filteredTodos[i].index = filteredTodos.indexOf(filteredTodos[i]) + 1;\n  }\n  taskArr = filteredTodos;\n  (0,_modules_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(taskArr);\n  getList(taskArr);\n});\nconst refreshImage = new Image();\nrefreshImage.src = _refresh_svg__WEBPACK_IMPORTED_MODULE_1__;\nconst headlineSection = document.querySelector('.headline');\n\nheadlineSection.appendChild(refreshImage);\nrefreshImage.className = 'refresh-image';\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/kebab.png":
-/*!***********************!*\
-  !*** ./src/kebab.png ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./src/modules/handleToDo.js":
+/*!***********************************!*\
+  !*** ./src/modules/handleToDo.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"img/kebab.png\";\n\n//# sourceURL=webpack://webpack-demo/./src/kebab.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _setLocalStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setLocalStorage.js */ \"./src/modules/setLocalStorage.js\");\n\n\nconst todoContainer = document.querySelector('.dynamic-list');\n\nconst handleToDo = (todo, todoItems) => {\n  const items = document.querySelectorAll('.todo');\n  items.forEach((item) => {\n    const idInNum = Number(item.querySelector('.section-1').getAttribute('data-time'));\n    if (idInNum === todo.index) {\n      // mark complete\n      item.querySelector('.checkbox').addEventListener('change', () => {\n        const itemIndex = todoItems.indexOf(todo);\n        const currentItem = todoItems[itemIndex];\n        currentItem.Completed = !currentItem.Completed;\n        todoItems.splice(itemIndex, 1, currentItem);\n        (0,_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(todoItems);\n      });\n      // delete todo\n      item.querySelector('.remove-btn').addEventListener('click', (e) => {\n        e.preventDefault();\n        todoContainer.removeChild(item);\n        const removeIndex = todoItems.indexOf(todo);\n        todoItems.splice(removeIndex, 1);\n        for (let i = 0; i < todoItems.length; i += 1) {\n          todoItems[i].index = todoItems.indexOf(todoItems[i]) + 1;\n        }\n        (0,_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(todoItems);\n      });\n\n      // update todo\n      item.querySelector('.label').addEventListener('blur', () => {\n        const itemIndex = todoItems.indexOf(todo);\n        const currentItem = todoItems[itemIndex];\n        currentItem.Description = item.innerText;\n        todoItems.splice(itemIndex, 1, currentItem);\n        (0,_setLocalStorage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(todoItems);\n      });\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (handleToDo);\n\n\n//# sourceURL=webpack://webpack-demo/./src/modules/handleToDo.js?");
+
+/***/ }),
+
+/***/ "./src/modules/setLocalStorage.js":
+/*!****************************************!*\
+  !*** ./src/modules/setLocalStorage.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst setLocalStorage = (todoItems) => {\n  localStorage.setItem('Todos', JSON.stringify(todoItems));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (setLocalStorage);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/setLocalStorage.js?");
 
 /***/ }),
 
@@ -191,18 +201,6 @@ eval("module.exports = __webpack_require__.p + \"img/refresh.svg\";\n\n//# sourc
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -221,22 +219,7 @@ eval("module.exports = __webpack_require__.p + \"img/refresh.svg\";\n\n//# sourc
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 		__webpack_require__.p = "/To-Do-List/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/

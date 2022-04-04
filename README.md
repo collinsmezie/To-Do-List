@@ -8,13 +8,13 @@
 - Frameworks: none
 - Technologies used: Webpack
 
-[Webpage Link ](https://collinsmezie.github.io/To-Do-List/) 
+[view To-Do App Here](https://collinsmezie.github.io/To-Do-List/) 
 
 ## Authors
 
 👤 **Collins Mezie**
 
-- GitHub: [@Shubh-Dev](https://github.com/collinsmezie)
+- GitHub: [@collinsmezie](https://github.com/collinsmezie)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/collinsmezie)
 
 ## 🤝 Contributing
