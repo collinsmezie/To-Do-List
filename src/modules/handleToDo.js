@@ -40,3 +40,5 @@ const handleToDo = (todo, todoItems) => {
 };
 
 export default handleToDo;
+
+module.exports = handleToDo;
