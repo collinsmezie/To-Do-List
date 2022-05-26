@@ -87,10 +87,10 @@ input:checked + label {
   text-decoration: line-through;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 400px) {
 
   .container {
-    width: 90%;
+    width: 93%;
     margin: auto;
     margin-top: 20vh;
     border: 2px solid darkgray;
